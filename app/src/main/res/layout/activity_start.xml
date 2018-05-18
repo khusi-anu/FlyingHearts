@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.anu.flyinghearts.start"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catch them All!!"
+        android:textSize="32sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="65sp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+        <TableRow>
+            <ImageView
+                android:src="@drawable/pink"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:text=" :  100 pts"
+                android:textSize="30sp"
+                android:layout_marginLeft="50sp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:src="@drawable/blue"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:text=" :  60 pts"
+                android:textSize="30sp"
+                android:layout_marginLeft="50sp"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:src="@drawable/orange"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:text=" :  20 pts"
+                android:textSize="30sp"
+                android:layout_marginLeft="50sp"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:src="@drawable/black"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:text=" :  OVER"
+                android:textSize="30sp"
+                android:layout_marginLeft="50sp"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130sp"
+        android:text="START"
+        android:onClick="startGame"/>
+</LinearLayout>
